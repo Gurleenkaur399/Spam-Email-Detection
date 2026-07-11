@@ -25,45 +25,47 @@ This project uses Machine Learning and Natural Language Processing (NLP) techniq
  ## Model Performance
 **Metric    Value**
 Algorithm   Multinomial Naive Bayes
-Accuracy    XX%
+Accuracy    98%
 Dataset     mail_data.csv
 
- ## 🤖 Machine Learning Workflow
-Dataset
-   │
-   ▼
-Data Cleaning
-   │
-   ▼
-Text Preprocessing
-   │
-   ▼
-CountVectorizer
-   │
-   ▼
-Train/Test Split
-   │
-   ▼
-Multinomial Naive Bayes
-   │
-   ▼
-Prediction
+## 🤖 Machine Learning Workflow
 
-## Project Structure
-Spam-Email-Detection
-│
-├── .spamm.ipynb
-├── mail_data.csv
-├── README.md
-├── .gitignore
+1. Dataset
+2. Data Cleaning
+3. Text Preprocessing
+4. CountVectorizer
+5. Train/Test Split
+6. Multinomial Naive Bayes
+7. Prediction
 
-## Sample Messages
- Ham (Not Spam)
-Hey Gurleen, are we meeting tomorrow at 10 AM?
-Prediction: Ham 
- Spam
-Congratulations! You have won ₹50,000. Click the link below to claim your prize.
-Prediction: Spam 
+---
+
+## 📂 Project Structure
+
+```text
+Spam-Email-Detection/
+│── spam.ipynb
+│── mail_data.csv
+│── README.md
+└── .gitignore
+```
+
+---
+
+## 💬 Sample Messages
+
+### ✅ Ham (Not Spam)
+**Message:** Hey Gurleen, are we meeting tomorrow at 10 AM?
+
+**Prediction:** Ham
+
+### 🚫 Spam
+**Message:** Congratulations! You have won ₹50,000. Click the link below to claim your prize.
+
+**Prediction:** Spam
+
+
+
 
 
 ## Author
