@@ -1,9 +1,4 @@
-<img width="372" height="175" alt="Screenshot 2026-07-11 115718" src="https://github.com/user-attachments/assets/459a039a-065b-4e47-bda9-7f89c29e67c0" />
-<img width="353" height="147" alt="Screenshot 2026-07-11 115040" src="https://github.com/user-attachments/assets/9004dac9-d571-4dd9-a434-9846988e1262" />
-<img width="590" height="181" alt="Screenshot 2026-07-11 114836" src="https://github.com/user-attachments/assets/81aca3e5-3668-4cf1-b144-457f2643895b" />
 
-<img width="590" height="181" alt="Screenshot 2026-07-11 114836" src="https://github.com/user-attachments/assets/73a497ec-d50d-4440-b04a-60e642355fa5" />
-<img width="245" height="305" alt="Screenshot 2026-07-11 114501" src="https://github.com/user-attachments/assets/7f157977-66a7-4a52-9ac7-3f66f679a3c8" />
 # Spam Email Detection using Machine Learning
 
 ## Overview
@@ -49,7 +44,10 @@ Dataset     mail_data.csv
 ## 📂 Project Structure
 
 ```text
-Spam-Email-Detection/
+Spam-Email-Detection
+|__
+
+
 │── spam.ipynb
 │── mail_data.csv
 │── README.md
