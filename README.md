@@ -45,9 +45,6 @@ Dataset     mail_data.csv
 
 ```text
 Spam-Email-Detection
-|__
-
-
 │── spam.ipynb
 │── mail_data.csv
 │── README.md
