@@ -1,7 +1,8 @@
+
 # Spam Email Detection using Machine Learning
 
 ## Overview
-This project detects whether an email or SMS message is **Spam** or **Ham (Not Spam)** using Machine Learning.
+This project uses Machine Learning and Natural Language Processing (NLP) techniques to classify email or SMS messages as Spam or Ham (Not Spam). The model is trained on labeled text data and predicts whether a new message is legitimate or spam.
 
 ## Features
 - Data Cleaning
@@ -22,16 +23,51 @@ This project detects whether an email or SMS message is **Spam** or **Ham (Not S
 - Matplotlib
 - Jupyter Notebook
 
-## Project Structure
+ ## Model Performance
+**Metric    Value**
+Algorithm   Multinomial Naive Bayes
+Accuracy    98%
+Dataset     mail_data.csv
 
-```
+## 🤖 Machine Learning Workflow
+
+1. Dataset
+2. Data Cleaning
+3. Text Preprocessing
+4. CountVectorizer
+5. Train/Test Split
+6. Multinomial Naive Bayes
+7. Prediction
+
+---
+
+## 📂 Project Structure
+
+```text
 Spam-Email-Detection
-│
-├── .spamm.ipynb
-├── mail_data.csv
-├── README.md
-├── .gitignore
+│── spam.ipynb
+│── mail_data.csv
+│── README.md
+└── .gitignore
 ```
+
+---
+
+## 💬 Sample Messages
+
+### ✅ Ham (Not Spam)
+**Message:** Hey Gurleen, are we meeting tomorrow at 10 AM?
+
+**Prediction:** Ham
+
+### 🚫 Spam
+**Message:** Congratulations! You have won ₹50,000. Click the link below to claim your prize.
+
+**Prediction:** Spam
+
+
+
+
 
 ## Author
 **Gurleen Kaur**
