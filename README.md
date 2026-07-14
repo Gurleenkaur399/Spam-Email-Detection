@@ -3,7 +3,8 @@
 
 ## Overview
 This project uses Machine Learning and Natural Language Processing (NLP) techniques to classify email or SMS messages as Spam or Ham (Not Spam). The model is trained on labeled text data and predicts whether a new message is legitimate or spam.
-
+## Live Demo
+   https://spam-email-detection-pcsf5e3gezaetrddjbit5w.streamlit.app/
 ## Features
 - Data Cleaning
 - Text Preprocessing
